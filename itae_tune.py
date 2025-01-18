@@ -30,6 +30,7 @@ def calculate_controller_settings(type_of_input, type_of_controller, K, theta, t
 
 # Streamlit interface
 st.title("FOPTD Model Controller Settings Calculator")
+st.subheader("Tuning Method: ITAE (Integral of Time-weighted Absolute Error)")
 
 # Inputs
 st.header("Input Parameters")
